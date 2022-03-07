@@ -4,12 +4,12 @@
 
 @section('content')
     <div class="crumb_nav"> <a href="#">home</a> &gt;&gt; product name </div>
-    <div class="title"><span class="title_icon"><img src="images/bullet1.gif" alt="" /></span>Product name</div>
+    <div class="title"><span class="title_icon"><img src="{{asset('images/bullet1.gif')}}" alt="" /></span>Product name</div>
     <div class="feat_prod_box_details">
         <div class="prod_img">
             <a href="#"><img src="images/prod1.gif" alt="" border="0" /></a> <br />
             <br />
-            <a href="images/big_pic.jpg" rel="lightbox"><img src="images/zoom.gif" alt="" border="0" /></a>
+            <a href="images/big_pic.jpg" rel="lightbox"><img src="{{asset('images/zoom.gif')}}" alt="" border="0" /></a>
         </div>
         <div class="prod_det_box">
             <div class="box_top"></div>
@@ -24,9 +24,9 @@
                 <div class="price"><strong>COLORS:</strong> <span class="colors"><img
                             src="images/color1.gif" alt="" border="0" /></span> <span class="colors"><img
                             src="images/color2.gif" alt="" border="0" /></span>
-                    <span class="colors"><img src="images/color3.gif" alt="" border="0" /></span>
+                    <span class="colors"><img src="{{asset('images/color3.gif')}}" alt="" border="0" /></span>
                 </div>
-                <a href="#" class="more"><img src="images/order_now.gif" alt="" border="0" /></a>
+                <a href="#" class="more"><img src="{{asset('images/order_now.gif')}}" alt="" border="0" /></a>
                 <div class="clear"></div>
             </div>
             <div class="box_bottom"></div>
@@ -54,32 +54,32 @@
             <div style="display: none;" class="tab" id="tab2">
                 <div class="new_prod_box"> <a href="#">product name</a>
                     <div class="new_prod_bg">
-                        <a href="#"><img src="images/thumb1.gif" alt="" class="thumb" border="0" /></a>
+                        <a href="#"><img src="{{asset('images/thumb1.gif')}}" alt="" class="thumb" border="0" /></a>
                     </div>
                 </div>
                 <div class="new_prod_box"> <a href="#">product name</a>
                     <div class="new_prod_bg">
-                        <a href="#"><img src="images/thumb2.gif" alt="" class="thumb" border="0" /></a>
+                        <a href="#"><img src="{{asset('images/thumb2.gif')}}" alt="" class="thumb" border="0" /></a>
                     </div>
                 </div>
                 <div class="new_prod_box"> <a href="#">product name</a>
                     <div class="new_prod_bg">
-                        <a href="#"><img src="images/thumb3.gif" alt="" class="thumb" border="0" /></a>
+                        <a href="#"><img src="{{asset('images/thumb3.gif')}}" alt="" class="thumb" border="0" /></a>
                     </div>
                 </div>
                 <div class="new_prod_box"> <a href="#">product name</a>
                     <div class="new_prod_bg">
-                        <a href="#"><img src="images/thumb1.gif" alt="" class="thumb" border="0" /></a>
+                        <a href="#"><img src="{{asset('images/thumb1.gif')}}" alt="" class="thumb" border="0" /></a>
                     </div>
                 </div>
                 <div class="new_prod_box"> <a href="#">product name</a>
                     <div class="new_prod_bg">
-                        <a href="#"><img src="images/thumb2.gif" alt="" class="thumb" border="0" /></a>
+                        <a href="#"><img src="{{asset('images/thumb2.gif')}}" alt="" class="thumb" border="0" /></a>
                     </div>
                 </div>
                 <div class="new_prod_box"> <a href="#">product name</a>
                     <div class="new_prod_bg">
-                        <a href="#"><img src="images/thumb3.gif" alt="" class="thumb" border="0" /></a>
+                        <a href="#"><img src="{{asset('images/thumb3.gif')}}" alt="" class="thumb" border="0" /></a>
                     </div>
                 </div>
                 <div class="clear"></div>

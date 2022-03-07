@@ -3,7 +3,7 @@
 @section('title', 'Flower Shop - ')
 
 @section('content')
-    <div class="title"><span class="title_icon"><img src="images/bullet1.gif" alt="" /></span>My cart</div>
+    <div class="title"><span class="title_icon"><img src="{{asset('images/bullet1.gif')}}" alt="" /></span>My cart</div>
     <div class="feat_prod_box_details">
         <table class="cart_table">
             <tr class="cart_title">
@@ -15,7 +15,7 @@
             </tr>
             <tr>
                 <td>
-                    <a href="#"><img src="images/cart_thumb.gif" alt="" border="0" class="cart_thumb" /></a>
+                    <a href="#"><img src="{{asset('images/cart_thumb.gif')}}" alt="" border="0" class="cart_thumb" /></a>
                 </td>
                 <td>Gift flowers</td>
                 <td>100$</td>
@@ -24,7 +24,7 @@
             </tr>
             <tr>
                 <td>
-                    <a href="#"><img src="images/cart_thumb.gif" alt="" border="0" class="cart_thumb" /></a>
+                    <a href="#"><img src="{{asset(images/cart_thumb.gif)}}" alt="" border="0" class="cart_thumb" /></a>
                 </td>
                 <td>Gift flowers</td>
                 <td>100$</td>
@@ -33,7 +33,7 @@
             </tr>
             <tr>
                 <td>
-                    <a href="#"><img src="images/cart_thumb.gif" alt="" border="0" class="cart_thumb" /></a>
+                    <a href="#"><img src="{{asset('images/cart_thumb.gif')}}" alt="" border="0" class="cart_thumb" /></a>
                 </td>
                 <td>Gift flowers</td>
                 <td>100$</td>

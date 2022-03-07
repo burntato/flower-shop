@@ -4,62 +4,62 @@
 
 @section('content')
     <div class="crumb_nav"> <a href="#">home</a> &gt;&gt; category name </div>
-    <div class="title"><span class="title_icon"><img src="images/bullet1.gif" alt="" /></span>Category products
+    <div class="title"><span class="title_icon"><img src="{{asset('images/bullet1.gif')}}" alt="" /></span>Category products
     </div>
     <div class="new_products">
         <div class="new_prod_box"> <a href="#">product name</a>
             <div class="new_prod_bg">
-                <a href="#"><img src="images/thumb1.gif" alt="" class="thumb" border="0" /></a>
+                <a href="#"><img src="{{asset('images/thumb1.gif')}}" alt="" class="thumb" border="0" /></a>
             </div>
         </div>
         <div class="new_prod_box"> <a href="#">product name</a>
             <div class="new_prod_bg"> <span class="new_icon"><img src="images/new_icon.gif" alt="" /></span>
-                <a href="#"><img src="images/thumb2.gif" alt="" class="thumb" border="0" /></a>
+                <a href="#"><img src="{{asset('images/thumb2.gif')}}" alt="" class="thumb" border="0" /></a>
             </div>
         </div>
         <div class="new_prod_box"> <a href="#">product name</a>
             <div class="new_prod_bg"> <span class="new_icon"><img src="images/promo_icon.gif" alt="" /></span>
-                <a href="#"><img src="images/thumb3.gif" alt="" class="thumb" border="0" /></a>
+                <a href="#"><img src="{{asset('images/thumb3.gif')}}" alt="" class="thumb" border="0" /></a>
             </div>
         </div>
         <div class="new_prod_box"> <a href="#">product name</a>
             <div class="new_prod_bg">
-                <a href="#"><img src="images/thumb1.gif" alt="" class="thumb" border="0" /></a>
+                <a href="#"><img src="{{asset('images/thumb1.gif')}}" alt="" class="thumb" border="0" /></a>
             </div>
         </div>
         <div class="new_prod_box"> <a href="#">product name</a>
             <div class="new_prod_bg"> <span class="new_icon"><img src="images/promo_icon.gif" alt="" /></span>
-                <a href="#"><img src="images/thumb2.gif" alt="" class="thumb" border="0" /></a>
+                <a href="#"><img src="{{asset('images/thumb2.gif')}}" alt="" class="thumb" border="0" /></a>
             </div>
         </div>
         <div class="new_prod_box"> <a href="#">product name</a>
             <div class="new_prod_bg">
-                <a href="#"><img src="images/thumb3.gif" alt="" class="thumb" border="0" /></a>
+                <a href="#"><img src="{{asset('images/thumb3.gif')}}" alt="" class="thumb" border="0" /></a>
             </div>
         </div>
         <div class="new_prod_box"> <a href="#">product name</a>
             <div class="new_prod_bg"> <span class="new_icon"><img src="images/new_icon.gif" alt="" /></span>
-                <a href="#"><img src="images/thumb2.gif" alt="" class="thumb" border="0" /></a>
+                <a href="#"><img src="{{asset('images/thumb2.gif')}}" alt="" class="thumb" border="0" /></a>
             </div>
         </div>
         <div class="new_prod_box"> <a href="#">product name</a>
             <div class="new_prod_bg">
-                <a href="#"><img src="images/thumb1.gif" alt="" class="thumb" border="0" /></a>
+                <a href="#"><img src="{{('images/thumb1.gif')}}" alt="" class="thumb" border="0" /></a>
             </div>
         </div>
         <div class="new_prod_box"> <a href="#">product name</a>
             <div class="new_prod_bg">
-                <a href="#"><img src="images/thumb1.gif" alt="" class="thumb" border="0" /></a>
+                <a href="#"><img src="{{asset('images/thumb1.gif')}}" alt="" class="thumb" border="0" /></a>
             </div>
         </div>
         <div class="new_prod_box"> <a href="#">product name</a>
             <div class="new_prod_bg"> <span class="new_icon"><img src="images/new_icon.gif" alt="" /></span>
-                <a href="#"><img src="images/thumb1.gif" alt="" class="thumb" border="0" /></a>
+                <a href="#"><img src="{{asset('images/thumb1.gif')}}" alt="" class="thumb" border="0" /></a>
             </div>
         </div>
         <div class="new_prod_box"> <a href="#">product name</a>
             <div class="new_prod_bg">
-                <a href="#"><img src="images/thumb1.gif" alt="" class="thumb" border="0" /></a>
+                <a href="#"><img src="{{asset('images/thumb1.gif')}}" alt="" class="thumb" border="0" /></a>
             </div>
         </div>
         <div class="pagination"> <span class="disabled">

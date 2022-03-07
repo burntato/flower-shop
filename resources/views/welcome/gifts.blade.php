@@ -3,12 +3,12 @@
 @section('title', 'Flower Shop - ')
 
 @section('content')
-    <div class="title"><span class="title_icon"><img src="images/bullet1.gif" alt="" /></span>Special gifts</div>
+    <div class="title"><span class="title_icon"><img src="{{asset('images/bullet1.gif')}}" alt="" /></span>Special gifts</div>
     <div class="feat_prod_box">
         <div class="prod_img">
             <a href="#"><img src="images/prod1.gif" alt="" border="0" /></a>
         </div>
-        <div class="prod_det_box"> <span class="special_icon"><img src="images/special_icon.gif" alt="" /></span>
+        <div class="prod_det_box"> <span class="special_icon"><img src="{{asset('images/special_icon.gif')}}" alt="" /></span>
             <div class="box_top"></div>
             <div class="box_center">
                 <div class="prod_title">Product name</div>
@@ -25,7 +25,7 @@
         <div class="prod_img">
             <a href="#"><img src="images/prod2.gif" alt="" border="0" /></a>
         </div>
-        <div class="prod_det_box"> <span class="special_icon"><img src="images/special_icon.gif" alt="" /></span>
+        <div class="prod_det_box"> <span class="special_icon"><img src="{{asset('images/special_icon.gif')}}" alt="" /></span>
             <div class="box_top"></div>
             <div class="box_center">
                 <div class="prod_title">Product name</div>
@@ -42,7 +42,7 @@
         <div class="prod_img">
             <a href="#"><img src="images/prod1.gif" alt="" border="0" /></a>
         </div>
-        <div class="prod_det_box"> <span class="special_icon"><img src="images/special_icon.gif" alt="" /></span>
+        <div class="prod_det_box"> <span class="special_icon"><img src="{{asset('images/special_icon.gif')}}" alt="" /></span>
             <div class="box_top"></div>
             <div class="box_center">
                 <div class="prod_title">Product name</div>
@@ -59,7 +59,7 @@
         <div class="prod_img">
             <a href="#"><img src="images/prod2.gif" alt="" border="0" /></a>
         </div>
-        <div class="prod_det_box"> <span class="special_icon"><img src="images/special_icon.gif" alt="" /></span>
+        <div class="prod_det_box"> <span class="special_icon"><img src="{{asset('images/special_icon.gif')}}" alt="" /></span>
             <div class="box_top"></div>
             <div class="box_center">
                 <div class="prod_title">Product name</div>
