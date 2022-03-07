@@ -17,11 +17,11 @@
                 <ul>
                     <li class="selected"><a href="/">home</a></li>
                     <li><a href="/about">about us</a></li>
-                    <li><a href="/category">flowers</a></li>
-                    <li><a href="/specials">specials gifts</a></li>
-                    <li><a href="/myaccount">my accout</a></li>
+                    <li><a href="/flowers">flowers</a></li>
+                    <li><a href="/gifts">specials gifts</a></li>
+                    <li><a href="/account">my accout</a></li>
                     <li><a href="/register">register</a></li>
-                    <li><a href="/details">prices</a></li>
+                    <li><a href="/prices">prices</a></li>
                     <li><a href="/contact">contact</a></li>
                 </ul>
             </div>
