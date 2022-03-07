@@ -32,6 +32,8 @@ Route::view('/prices', 'welcome.prices');
 
 Route::view('/contact', 'welcome.contact');
 
+Route::view('/cart', 'welcome.cart');
+
 
 Auth::routes();
 
