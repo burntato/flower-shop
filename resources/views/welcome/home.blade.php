@@ -3,6 +3,7 @@
 @section('title', 'Flower Shop - Home')
 
 @section('content')
+    {{-- Product --}}
     <div class="title"><span class="title_icon"><img src="{{ asset('images/bullet1.gif') }}"
                 alt="" /></span>Featured products</div>
     <div class="feat_prod_box">
@@ -37,6 +38,7 @@
         </div>
         <div class="clear"></div>
     </div>
+    {{-- Product end --}}
     <div class="title"><span class="title_icon"><img src="{{ asset('images/bullet2.gif') }}"
                 alt="" /></span>New products</div>
     <div class="new_products">
